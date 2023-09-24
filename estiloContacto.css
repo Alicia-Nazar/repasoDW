@@ -1,5 +1,7 @@
 body{
     color: aliceblue;
+    background-color: #362f66;
+
 }
 .formGrid {
     display: grid;
@@ -31,6 +33,7 @@ body{
     display: flex; 
     justify-content: center;
     align-items: center;
+    
 }
 textarea{
     resize: none;
@@ -52,15 +55,47 @@ textarea{
 }
 
 .boton {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #3e2e98;
+    display: flex;
+    padding: 10px;
+    background-color: #1e1a34;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: auto;
+    
 }
 
 .boton:hover {
     background-color: #257aa4;
+}
+footer{
+    color: #a1a1a1;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+#prueba{
+    padding-bottom: 40px;
+    padding-top: 4px;
+    background-color: transparent;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+h1{
+    font-size: 55px;
+
 }
