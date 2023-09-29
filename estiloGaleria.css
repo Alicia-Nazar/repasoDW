@@ -69,8 +69,43 @@ footer{
     padding-bottom: 20px;
     bottom: 0;
     width: 100%;
-    padding: 10px;
 }
+.divFooter{
+    color:#dddddd;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #7c7c7c;
+}
+.social-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    position:relative;
+    float:left;
+}
+
+.social-list li {
+    margin-right: 25px;
+    margin-left: 25px;
+    transition: transform 0.3s;
+}
+
+.social-list a img {
+    width: 40px; 
+    height: 40px;
+}
+.social-list li:hover{
+    transform: scale(1.5);
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+
 nav{
     display: flex;
     align-items: center;
